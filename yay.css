@@ -22,12 +22,17 @@ main{
     }
     .head-three{
         text-align: center;
-        padding: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .head-two{
+        text-align: center;
+    padding-top: 30px;
     }
     .yay-button{
         display: flex;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 30px;
