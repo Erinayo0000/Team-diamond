@@ -53,7 +53,7 @@ main{
 .acct{
     display: flex;
     gap: 10px;
-    padding-left: 3.5rem;
+    padding-left: 30px;
 }
 .color{
 color: #FF9900;
@@ -99,7 +99,7 @@ color: #FF9900;
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     opacity:30% ;
 }
 
@@ -118,7 +118,7 @@ color: #FF9900;
     border: none;
     border-radius: 10px;
     margin-left: 10px;
-    padding: 10px 70px;
+    padding: 10px 50px;
     background-color: #0B41ABE5;
     text-align: center;
     color:#FAFAFA;
@@ -137,7 +137,7 @@ color: #FF9900;
     border: none;
     border-radius: 10px;
     margin-left: 10px;
-    padding: 10px 70px;
+    padding: 10px 50px;
     background-color: 
     #F5F5F5;
     text-align: center;
