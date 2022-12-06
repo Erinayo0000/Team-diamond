@@ -34,7 +34,7 @@ main{
 .signin{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
@@ -48,13 +48,108 @@ main{
     text-align: center;
     color:#FAFAFA;
     cursor: pointer;
+    width: 100%;
 }
 .acct{
     display: flex;
     gap: 10px;
-    
+    padding-left: 3.5rem;
 }
 .color{
 color: #FF9900;
+}
+.form-container{
+    height: 10rem;
+    padding: 5px;
+}
+.input-field {
+    position: relative;
+    padding-bottom: 2rem;
+}
+#password {
+    position: relative;
+}
 
+.input-field > input {
+    border: 1px solid#F5F5F5;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    font-family: "poppins","sans-serif";
+}
+
+.input-field > input:focus {
+    outline: 1px solid #0AC232;
+}
+
+.input-field > input::placeholder {
+    opacity: 30%;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.password-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 2rem;
+    opacity:30% ;
+}
+
+.remember-me {
+    padding-left: 0.5rem;
+}
+
+.forgot-password {
+    font-size: 16px;
+}
+.forgot-password a {
+    color: var(--navbar-text);
+    text-decoration: none;
+}
+ .facebook{
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 70px;
+    background-color: #0B41ABE5;
+    text-align: center;
+    color:#FAFAFA;
+    cursor: pointer;
+    width: 100%;
+}
+.facebook-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.google{
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 70px;
+    background-color: 
+    #F5F5F5;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    width: 100%;
+}
+.google-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }

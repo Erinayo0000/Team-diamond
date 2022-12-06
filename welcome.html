@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="welcome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+        rel="stylesheet"
+    />
     <title>D Food's Place</title>
 </head>
 <body>
@@ -19,9 +25,9 @@
             <img src="images/happy.png.png" alt="" width="150px">
         </div>
         <div class="login">
-            <h3 class="head-three">
+            <h4 class="head-three">
 log in
-            </h3>
+            </h4>
         </div>
         <div class="form-container">
             <form action="#">
@@ -49,6 +55,23 @@ log in
                     />
                    
 
+                    <div class="password-flex">
+                        <div class="remember-me">
+                            <input
+                                type="checkbox"
+                                name="remember-me"
+                                id="remember-me"
+                                required
+                            />
+                            <label for="remember-me" class="remember-me"
+                                >Save Me</label
+                            >
+                        </div>
+                        <div class="forgot-password">
+                            <a href="#"><p>Forgot password?</p></a>
+                        </div>
+                    </div>
+
                     <div class="signin">
                         <button>Sign In</button>
                     </div>
@@ -61,6 +84,17 @@ log in
                             <h3><a class="color" href="#">Sign In</a></h3 >
                         </div>
                     </div>
+                    <div class="facebook-btn">
+                        <button class="facebook">
+                            <img src="images/facebook.png" alt="" width="15px">  Continue with Facebook
+                        </button>
+                    </div>
+                    <div class="google-btn">
+                        <button class="google">
+                            <img src="images/google-icon.png" alt="" width="15px">  Continue with Facebook
+                        </button>
+                    </div>
+                    
             </form>
         </div>
     </main>
